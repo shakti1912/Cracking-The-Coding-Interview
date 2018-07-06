@@ -1,0 +1,19 @@
+This is the notes file for Arrays and Strings Chapter.
+
+ASCII vs Unicode:
+	ASCII : ascii is an acronym for "american standard code for information interchange".
+	used for storing/displaying text,simple formatting and a few other control characters. 
+
+	Unicode : ascii has been superseded by unicode, a double byte character system designed to store
+	 and display a much wider range of letters.(65,536) the extra include foreign languages and
+	 mathematical/scientific symbols, plus space for future expansion.
+	all ascii characters still exist in unicode, either prefixed or suffixed by a null. 
+	the difference being big-endian or little-endian respectfully.
+
+Arrays.sort() vs Collections.sort()
+	Arrays.sort works for arrays which can be of primitive data type also. This is Dual-Pivot Quicksort algorithm
+	Collections.sort() works for objects Collections like ArrayList, LinkedList, etc. This is mergesort
+	
+
+String Manipulation problems: start from the end and work backwards
+
